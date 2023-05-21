@@ -272,12 +272,16 @@ match의 결과값이 있을 때만 그 작업을 수행하겠다는 것
 ### ■ 백슬래시 문제
 <pre><code> \section </code></pre>
 이 정규식은   <code>>> \s </code>문자가 whitespace로 해석되어 의도한대로 매치 x
+  
 <pre><code> [ \t\n\r\f\v]ection </code></pre>
-과 동일한 의미이다.
-<p>
-의도한 대로 매치하고 싶으면
+  
+과 동일한 의미이다. 의도한 대로 매치하고 싶으면
+  
 <pre><code \\section </code></pre>
+  
 컴파일할려면 
+  
 <pre><code>>> p = re.compile('\\section') </code></pre> 
+  
 -> 정규식 엔진에서 \\을 보낼려면 파이썬은 \\\\처럼 백슬래시 4개를 사용해야함 <p>
 
