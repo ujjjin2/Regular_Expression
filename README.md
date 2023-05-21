@@ -275,9 +275,8 @@ match의 결과값이 있을 때만 그 작업을 수행하겠다는 것
   
 <pre><code> [ \t\n\r\f\v]ection </code></pre>
   
-과 동일한 의미이다. 의도한 대로 매치하고 싶으면
-  
-<pre><code \\section </code></pre>
+과 동일한 의미이다. 의도한 대로 매치하고 싶으면 
+<pre><code> \\section </code></pre>
   
 컴파일할려면 
   
