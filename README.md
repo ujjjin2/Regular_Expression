@@ -118,7 +118,7 @@
 #### match
 <pre><code>>> m = p.match("python")
 >> print(m) </code></pre> 
-<re.Match object; span=(0, 6), match='python'>출력
+<re.Match object; span=(0, 6), match='python'>
 
 <pre><code>>> m = p.match("3 python")
 >> print(m) </code></pre> 
@@ -136,7 +136,7 @@ match의 결과값이 있을 때만 그 작업을 수행하겠다는 것
 #### search
 <pre><code>>> m = p.search("python")
 >> print(m) </code></pre> 
-<re.Match object; span=(0, 6), match='python'>출력
+<re.Match object; span=(0, 6), match='python'>
 
 <pre><code>>> m = p.search("3 python")
 >> print(m) </code></pre> 
